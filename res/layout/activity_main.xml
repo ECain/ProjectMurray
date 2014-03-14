@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:background="@drawable/background2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="18dp" >
+
+        <Button
+            android:id="@+id/newFeatureService"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:background="#ffa500"
+            android:padding="10dp"
+            android:text="@string/newfeatureservice"
+            android:textColor="#FFFFFF"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/learnMoreButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:background="#c3c3c3"
+            android:padding="10dp"
+            android:text="@string/learnmore"
+            android:typeface="monospace" />
+    </RelativeLayout>
+
+</RelativeLayout>

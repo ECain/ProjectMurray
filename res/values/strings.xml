@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Project Murray</string>
+    <string name="user_name">User Name:</string>
+    <string name="user_name_hint">myUserName</string>
+    <string name="password">Password:</string>
+    <string name="sign_in"><b>SIGN IN</b></string>
+    <string name="login">Login</string>
+    <string name="add">Add</string>
+    <string name="esri">esri</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="fieldName">Field Name: </string>
+    <string name="alias">Alias: </string>
+    <string name="dataType">Datatype: </string>
+    <string name="orgEndpoint">Organisation URL: </string>
+    <string name="myOrg">http://startups.maps.arcgis.com/</string>
+    <string name="featureServiceName">Feature Service Name</string>
+    <string name="isFeatureServiceNameAvailable">Is name available</string>
+    <string name="createFeatureService">Create</string>
+    <string name="btn_edit_apply">Apply</string>
+    <string name="btn_edit_discard">Discard</string>
+    <string name="addDefinition">Add Definition</string>
+    <string name="newfeatureservice">NEW FEATURE SERVICE</string>
+    <string name="learnmore"><b>LEARN MORE</b></string>
+    <string name="signin">&#8226;	Sign into your ArcGIS Account</string>
+    <string name="createFeatureServiceName">&#8226;	Name your new Feature Service</string>
+    <string name="publish">&#8226;	Add Fields and publish</string>
+    <string name="getstarted"><b>GET STARTED</b></string>
+    <string name="next"><b>NEXT</b></string>
+    <string name="save"><b>SAVE</b></string>
+    <string name="welcomeMessage"><b>Welcome to the Android Feature Service creator</b></string>
+    <string name="followMessage">Feature service creation made easy for the ArcGIS Android platform</string>
+    <string name="featureServiceNameHint"><i>My feature service name</i></string>
+    
+    <string name="date"><b>Date</b></string>
+    <string name="integer"><b>Integer</b></string>
+    <string name="string"><b>String</b></string>
+    
+    <string name="featureServiceCreated"><b>Feature Service Created</b></string>
+    <string name="ok"><b>Finish</b></string>
+    <string name="success"><b>Success</b></string>
+
+</resources>

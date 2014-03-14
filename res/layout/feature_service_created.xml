@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background2">
+    
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="18dp" >
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="294dp"
+        android:layout_height="50dp"
+        android:background="#c3c3c3"
+        android:padding="10dp"
+        android:text="@string/ok" 
+		android:textColor="#FFFFFF"
+        android:typeface="monospace" 
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"/>
+
+	<Button
+        android:id="@+id/newFeatServiceButton"
+        android:layout_width="294dp"
+        android:layout_height="50dp"
+        android:background="#ffa500"
+        android:padding="10dp"
+        android:text="@string/newfeatureservice" 
+		android:textColor="#FFFFFF"
+        android:typeface="monospace" 
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"/>
+	</RelativeLayout>
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_alignBottom="@+id/textView5"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="54dp"
+    android:contentDescription="@string/success"
+    android:src="@drawable/tick_button_image" />
+
+<TextView
+    android:id="@+id/textView5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:text="@string/featureServiceCreated"
+    android:textColor="#ffa500"
+    android:textSize="@dimen/test3" />
+
+</RelativeLayout>

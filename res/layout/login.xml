@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f2ef"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="18dp" >
+
+        <Button
+            android:id="@+id/SignInButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:background="#ffa500"
+            android:padding="10dp"
+            android:text="@string/sign_in"
+            android:textColor="#FFFFFF"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/signInCancelButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="#c3c3c3"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:text="@string/cancel"
+            android:typeface="monospace" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/userOrgData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#494847" />
+        </ScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp" >
+
+        <TextView
+            android:id="@+id/textViewOrgUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/username"
+            android:layout_alignParentTop="true"
+            android:text="@string/orgEndpoint"
+            android:textColor="#494847" />
+        
+        <EditText
+            android:id="@+id/textEditOrgID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_alignLeft="@+id/textViewOrgUrl"
+            android:layout_below="@+id/textViewOrgUrl"
+            android:hint="@string/myOrg"
+            android:textSize="@dimen/test2" >
+            <requestFocus />
+        </EditText>
+                
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textEditOrgID"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/user_name"
+            android:textColor="#494847" />
+
+        <EditText
+            android:id="@+id/loginUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_alignLeft="@+id/username"
+            android:layout_below="@+id/username"
+            android:hint="@string/user_name_hint"
+            android:textSize="@dimen/test2" />
+        
+        <TextView
+            android:id="@+id/textViewPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/loginUserName"
+            android:layout_below="@+id/username"
+            android:layout_marginTop="46dp"
+            android:text="@string/password"
+            android:textColor="#494847" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_alignLeft="@+id/textViewPassword"
+            android:layout_below="@+id/textViewPassword"
+            android:inputType="textPassword"
+            android:textSize="@dimen/test2" />
+    </RelativeLayout>
+</RelativeLayout>
